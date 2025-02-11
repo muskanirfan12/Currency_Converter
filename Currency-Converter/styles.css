@@ -1,0 +1,63 @@
+body {
+  font-family: "Maven Pro", sans-serif;
+    background-color:  #FEE715;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 50px auto;
+    background: #a79814;
+    padding: 40px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #494949;
+  }
+  
+  .converter label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .converter select,
+  .converter input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    width: 48%;
+    padding: 10px;
+    margin: 5px 1%;
+    background-color: #494949;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #17212b;
+  }
+  
+  #result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+  }
+  #amount{
+    width: 50%;
+  }
